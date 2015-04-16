@@ -1128,7 +1128,7 @@ button.trigger span::before {
 	left: 0;
 	height: 50%;
 	width: 25%;
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/1.JPG);
 }
 
 .intro-effect-grid .grid li:nth-child(2) {
@@ -1136,7 +1136,7 @@ button.trigger span::before {
 	left: 0;
 	height: 50%;
 	width: 25%;
-	background-image: url(../img/2.jpg);
+	background-image: url(../img/2.JPG);
 }
 
 .intro-effect-grid .grid li:nth-child(3) {
@@ -1144,7 +1144,7 @@ button.trigger span::before {
 	left: 25%;
 	height: 100%;
 	width: 25%;
-	background-image: url(../img/5.jpg);
+	background-image: url(../img/5.JPG);
 }
 
 .intro-effect-grid .grid li:nth-child(4) {
@@ -1152,7 +1152,7 @@ button.trigger span::before {
 	left: 50%;
 	height: 50%;
 	width: 50%;
-	background-image: url(../img/4.jpg);
+	background-image: url(../img/4.JPG);
 }
 
 .intro-effect-grid .grid li:nth-child(5) {
@@ -1160,7 +1160,7 @@ button.trigger span::before {
 	left: 50%;
 	height: 50%;
 	width: 25%;
-	background-image: url(../img/8.jpg);
+	background-image: url(../img/8.JPG);
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	opacity: 0;
@@ -1181,7 +1181,7 @@ button.trigger span::before {
 	left: 75%;
 	height: 50%;
 	width: 25%;
-	background-image: url(../img/6.jpg);
+	background-image: url(../img/6.JPG);
 }
 
 .intro-effect-grid.modify .bg-img {
