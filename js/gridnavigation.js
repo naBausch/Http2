@@ -1,6 +1,38 @@
-(function() {
+(function($) {
+    /**
+     * Gridnavigation module implementation.
+     *
+     * @author Natalie Bausch
+     * @namespace Tc.Module
+     * @class Navbar
+     * @extends Tc.Module
+     */
+    Tc.Module.Gridnavigation = Tc.Module.extend({
 
-				// detect if IE : from http://stackoverflow.com/a/16657946		
+        /**
+         * Initializes the Gridnavigation module.
+         *
+         * @method init
+         * @constructor
+         * @param {jQuery|Zepto} $ctx the jquery context
+         * @param {Sandbox} sandbox the sandbox to get the resources from
+         * @param {String} modId the unique module id
+         */
+        init: function($ctx, sandbox, modId) {
+            // call base constructor
+            this._super($ctx, sandbox, modId);
+        },
+
+        /**
+         * Hook function to do all of your module stuff.
+         *
+         * @method on
+         * @param {Function} callback function
+         * @return void
+         */
+        on: function(callback) {
+             
+            // detect if IE : from http://stackoverflow.com/a/16657946		
 				var ie = (function(){
 					var undef,rv = -1; // Return value assumes failure.
 					var ua = window.navigator.userAgent;
@@ -137,4 +169,8 @@
 				
 				window.addEventListener( 'scroll', scrollPage );
 				trigger.addEventListener( 'click', function() { toggle( 'reveal' ); } );
-			})();
+    		
+            callback();
+        }
+    });
+})(Tc.$);
