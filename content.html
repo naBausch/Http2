@@ -42,7 +42,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-     <script src="js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <script src="js/terrific-2.1.0.js"></script>
 
@@ -62,11 +62,31 @@
 
     
     <script src="js/pagescroll.js"></script>
+    <script src="js/gridnavigation.js"></script>
     <script src="js/navcollapse.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/tooltipbutton.js"></script>
     <script src="js/tab.js"></script>
     <script src="js/datepicker.js"></script>
+
+    <script>
+      (function($) {
+        $(document).ready(function() {
+          var $page = $('body');
+          var application = new Tc.Application($page);
+          application.registerModules();
+          application.registerModule($page, 'Navbar');
+          application.registerModule($page, 'Pagescroll');
+          application.registerModule($page, 'Navcollapse');
+          application.registerModule($page, 'Slider');
+          application.registerModule($page, 'Tooltipbutton');
+          application.registerModule($page, 'Datepicker');
+          application.registerModule($page, 'Gridnavigation');
+          application.start();
+        });
+      })(Tc.$);
+    </script>
+
 
 </head>
 
@@ -208,24 +228,6 @@
             <p>Copyright &copy; Your Website 2014</p>
         </div>
     </footer>
-
-    <script>
-      (function($) {
-        $(document).ready(function() {
-          var $page = $('body');
-          var application = new Tc.Application($page);
-          application.registerModules();
-          application.registerModule($page, 'Navbar');
-          application.registerModule($page, 'Pagescroll');
-          application.registerModule($page, 'Navcollapse');
-          application.registerModule($page, 'Slider');
-          application.registerModule($page, 'Tooltipbutton');
-          application.registerModule($page, 'Datepicker');
-          application.registerModule($page, 'Gridnavigation');
-          application.start();
-        });
-      })(Tc.$);
-    </script>
 
 
 </body>
