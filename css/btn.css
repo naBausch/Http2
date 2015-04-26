@@ -49,6 +49,7 @@
 	}
 
 	.btn-default {
+		margin-top: 20px;
 	    border: 1px solid #42dca3;
 	    color: #42dca3;
 	    background-color: transparent;
@@ -60,4 +61,8 @@
 	    outline: 0;
 	    color: #000;
 	    background-color: #42dca3;
+	}
+
+	.hasDatepicker {
+		margin-top: 20px;
 	}

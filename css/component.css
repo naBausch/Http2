@@ -85,7 +85,7 @@ button.trigger {
 	bottom: 40px;
 	left: 50%;
 	z-index: 5000;
-	display: block;
+	display: none;
 	margin-left: -0.5em;
 	padding: 0;
 	width: 1em;
