@@ -30,6 +30,9 @@ requirejs.config({
         },
         'slick.min': {
             deps: ['jquery']
-        }
+        },
+        'tab': {
+            deps: ['jquery']
+        }  
    }
 });

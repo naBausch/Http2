@@ -1,4 +1,4 @@
-define(['jquery', 'terrific', 'bootstrap', 'tooltip', 'jquery-ui','jquery.easing.min', 'classie', 'module/datepicker', 'module/pagescroll', 'module/gridnavigation', 'module/navcollapse', 'module/tooltipbutton', 'module/tab' ], function ($, Tc) {
+define(['jquery', 'terrific', 'bootstrap', 'tooltip', 'jquery-ui','jquery.easing.min', 'classie', 'tab', 'module/datepicker', 'module/pagescroll', 'module/gridnavigation', 'module/navcollapse', 'module/tooltipbutton' ], function ($, Tc) {
       (function($) {
           var $page = $('body');
           var application = new Tc.Application($page);
