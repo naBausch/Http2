@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index – Test</title>
+	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+	Check the console…
+	<script src="js/lib/jquery.js"></script>
+	<script src="js/lib/terrific.js"></script>
+	<script src="js/module/shared1.js"></script>
+	<script src="js/module/shared2.js"></script>
+	<script src="js/module/shared3.js"></script>
+	<script src="js/module/shared4.js"></script>
+	<script src="js/module/shared5.js"></script>
+	<script src="js/module/a1.js"></script>
+	<script src="js/module/a2.js"></script>
+	<script src="js/module/a3.js"></script>
+	<script src="js/module/a4.js"></script>
+	<script src="js/module/a5.js"></script>
+	<script type="text/javascript">
+	(function($) {
+        var $page = $('body');
+        var application = new Tc.Application($page);
+        application.registerModules();
+        application.registerModule($page, 'Shared1');
+        application.registerModule($page, 'Shared2');
+        application.registerModule($page, 'Shared3');
+        application.registerModule($page, 'Shared4');
+        application.registerModule($page, 'Shared5');
+
+        application.registerModule($page, 'A1');
+        application.registerModule($page, 'A2');
+        application.registerModule($page, 'A3');
+        application.registerModule($page, 'A4');
+        application.registerModule($page, 'A5');
+        application.start();
+    })(Tc.$);
+	</script>
+</body>
+</html>

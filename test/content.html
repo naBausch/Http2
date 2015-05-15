@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Content – Test</title>
+	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+	Check the console…
+	<script src="js/lib/jquery.js"></script>
+	<script src="js/lib/terrific.js"></script>
+	<script src="js/module/shared1.js"></script>
+	<script src="js/module/shared2.js"></script>
+	<script src="js/module/shared3.js"></script>
+	<script src="js/module/shared4.js"></script>
+	<script src="js/module/shared5.js"></script>
+	<script src="js/module/b1.js"></script>
+	<script src="js/module/b2.js"></script>
+	<script src="js/module/b3.js"></script>
+	<script src="js/module/b4.js"></script>
+	<script src="js/module/b5.js"></script>
+	<script type="text/javascript">
+	(function($) {
+        var $page = $('body');
+        var application = new Tc.Application($page);
+        application.registerModules();
+        application.registerModule($page, 'Shared1');
+        application.registerModule($page, 'Shared2');
+        application.registerModule($page, 'Shared3');
+        application.registerModule($page, 'Shared4');
+        application.registerModule($page, 'Shared5');
+
+        application.registerModule($page, 'B1');
+        application.registerModule($page, 'B2');
+        application.registerModule($page, 'B3');
+        application.registerModule($page, 'B4');
+        application.registerModule($page, 'B5');
+        application.start();
+    })(Tc.$);
+	</script>
+</body>
+</html>
