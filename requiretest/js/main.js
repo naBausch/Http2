@@ -4,3 +4,4 @@ require(['./common'], function (common) {
         'page/main'
     ]);
 });
+

@@ -10836,18 +10836,18 @@ Tc.Utils.String = {
         });
     })(Tc.$);
 
-/*a1*/
 
+/*b1*/
     (function($) {
         /**
-         * A1 module implementation.
+         * B1 module implementation.
          *
          * @author Natalie Bausch
          * @namespace Tc.Module
-         * @class A1
+         * @class B1
          * @extends Tc.Module
          */
-        Tc.Module.A1 = Tc.Module.extend({
+        Tc.Module.B1 = Tc.Module.extend({
 
             /**
              * Initializes the Default module.
@@ -10871,7 +10871,7 @@ Tc.Utils.String = {
              * @return void
              */
             on: function(callback) {
-                console.log('A1: on');
+                console.log('B1: on');
 
                 callback();
             },
@@ -10883,23 +10883,23 @@ Tc.Utils.String = {
              * @return void
              */
             after: function() {
-                console.log('A1: after');
+                console.log('B1: after');
             }
         });
     })(Tc.$);
 
 
-/*a2*/
+/*b2*/
     (function($) {
         /**
-         * A2 module implementation.
+         * B2 module implementation.
          *
          * @author Natalie Bausch
          * @namespace Tc.Module
-         * @class A2
+         * @class B2
          * @extends Tc.Module
          */
-        Tc.Module.A2 = Tc.Module.extend({
+        Tc.Module.B2 = Tc.Module.extend({
 
             /**
              * Initializes the Default module.
@@ -10923,7 +10923,7 @@ Tc.Utils.String = {
              * @return void
              */
             on: function(callback) {
-                console.log('A2: on');
+                console.log('B2: on');
 
                 callback();
             },
@@ -10935,22 +10935,22 @@ Tc.Utils.String = {
              * @return void
              */
             after: function() {
-                console.log('A2: after');
+                console.log('B2: after');
             }
         });
     })(Tc.$);
 
-/*a3*/
+/*b3*/
     (function($) {
         /**
-         * A3 module implementation.
+         * B3 module implementation.
          *
          * @author Natalie Bausch
          * @namespace Tc.Module
-         * @class A3
+         * @class B3
          * @extends Tc.Module
          */
-        Tc.Module.A3 = Tc.Module.extend({
+        Tc.Module.B3 = Tc.Module.extend({
 
             /**
              * Initializes the Default module.
@@ -10974,7 +10974,7 @@ Tc.Utils.String = {
              * @return void
              */
             on: function(callback) {
-                console.log('A3: on');
+                console.log('B3: on');
 
                 callback();
             },
@@ -10986,22 +10986,22 @@ Tc.Utils.String = {
              * @return void
              */
             after: function() {
-                console.log('A3: after');
+                console.log('B3: after');
             }
         });
     })(Tc.$);
 
-/*a4*/
+/*b4*/
     (function($) {
         /**
-         * A4 module implementation.
+         * B4 module implementation.
          *
          * @author Natalie Bausch
          * @namespace Tc.Module
-         * @class A4
+         * @class B4
          * @extends Tc.Module
          */
-        Tc.Module.A4 = Tc.Module.extend({
+        Tc.Module.B4 = Tc.Module.extend({
 
             /**
              * Initializes the Default module.
@@ -11025,7 +11025,7 @@ Tc.Utils.String = {
              * @return void
              */
             on: function(callback) {
-                console.log('A4: on');
+                console.log('B4: on');
 
                 callback();
             },
@@ -11037,23 +11037,22 @@ Tc.Utils.String = {
              * @return void
              */
             after: function() {
-                console.log('A4: after');
+                console.log('B4: after');
             }
         });
     })(Tc.$);
 
-
-/*a5*/
+/*b5*/
     (function($) {
         /**
-         * A5 module implementation.
+         * B5 module implementation.
          *
          * @author Natalie Bausch
          * @namespace Tc.Module
-         * @class A5
+         * @class B5
          * @extends Tc.Module
          */
-        Tc.Module.A5 = Tc.Module.extend({
+        Tc.Module.B5 = Tc.Module.extend({
 
             /**
              * Initializes the Default module.
@@ -11077,7 +11076,7 @@ Tc.Utils.String = {
              * @return void
              */
             on: function(callback) {
-                console.log('A5: on');
+                console.log('B5: on');
 
                 callback();
             },
@@ -11089,11 +11088,8 @@ Tc.Utils.String = {
              * @return void
              */
             after: function() {
-                console.log('A5: after');
+                console.log('B5: after');
             }
         });
     })(Tc.$);
-
-
-
 
